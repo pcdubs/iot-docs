@@ -1,0 +1,4 @@
+== Frequently Asked Questions
+Why are so many messages displayed onscreen when using Fedora IoT edition?
+
+Some users may find Fedora IoT too verbose when used with a display or serial console. By default, Fedora IoT does not include the `audit` package due to its dependencies and a desire to keep the image as minimal as possible. If you would like to limit console messages displayed you can add the `audit` package to your installation (`rpm-ostree install audit`).
